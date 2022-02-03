@@ -3,7 +3,9 @@
 ## Goals of this repository
 This repository has several aims:
 - Be a reference for my current knowledge
-- Bring a correct implementation of the SRS, so it can help me and others to broaden our vocabulary
+- Bring a correct implementation of the [SRS](https://en.wikipedia.org/wiki/Spaced_repetition), so it can help me and others to broaden our vocabulary \
+// This is [the video](https://youtu.be/78TWMZ-COcM) where I first encountered this technique, but it is in hungarian
+
 - Provide a proof of concepts which I studied in the following books:
 	- [Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164 "Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)")
 		- *Ports and Adapters* package managing
