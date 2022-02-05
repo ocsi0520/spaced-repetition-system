@@ -1,0 +1,24 @@
+{
+  "name": "spaced-repetition-system",
+  "version": "0.0.0",
+  "description": "An implementation for the so-called \"Spaced Repetition System\", which facilitates learning words, history events by year, math formulas or any other material you wish to learn.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocsi0520/spaced-repetition-system.git"
+  },
+  "keywords": [
+    "spaced",
+    "repetition",
+    "system"
+  ],
+  "author": "Tamás Faragó",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocsi0520/spaced-repetition-system/issues"
+  },
+  "homepage": "https://github.com/ocsi0520/spaced-repetition-system#readme"
+}
