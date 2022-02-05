@@ -2,7 +2,7 @@
   "name": "spaced-repetition-system",
   "version": "0.0.0",
   "description": "An implementation for the so-called \"Spaced Repetition System\", which facilitates learning words, history events by year, math formulas or any other material you wish to learn.",
-  "main": "main.ts",
+  "main": "src/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/ocsi0520/spaced-repetition-system/issues"
   },
-  "homepage": "https://github.com/ocsi0520/spaced-repetition-system#readme"
+  "homepage": "https://github.com/ocsi0520/spaced-repetition-system#readme",
+  "devDependencies": {
+    "ts-loader": "9.2.6",
+    "typescript": "4.5.5",
+    "webpack": "5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
