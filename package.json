@@ -5,7 +5,8 @@
   "main": "src/main.ts",
   "scripts": {
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
