@@ -13,14 +13,4 @@ describe('StringAnswer', () => {
     expect(firstAnswer.equals(secondAnswer)).toBe(false);
     expect(secondAnswer.equals(firstAnswer)).toBe(false);
   });
-  it('should handle null and undefined values for StringAnswer', () => {
-    const answer = new StringAnswer('some text');
-    expect(new StringAnswer(null).equals(answer)).toBe(false);
-    expect(new StringAnswer(undefined).equals(answer)).toBe(false);
-  });
-  it('should handle null and undefined', () => {
-    const answer = new StringAnswer('some text');
-    expect(answer.equals(null)).toBe(false);
-    expect(answer.equals(undefined)).toBe(false);
-  });
 });
